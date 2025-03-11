@@ -9,9 +9,12 @@
     "start:production": "NODE_ENV=production expo start -c",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "eas:build:development": "eas build --platform android --profile development",
-    "eas:build:preview": "eas build --platform ios --profile preview",
-    "eas:build:production": "eas build --platform android --profile production",
+    "eas:build:development:android": "eas build --platform android --profile development",
+    "eas:build:development:ios": "eas build --platform ios --profile development",
+    "eas:build:preview:android": "eas build --platform android --profile preview",
+    "eas:build:preview:ios": "eas build --platform ios --profile preview",
+    "eas:build:production:android": "eas build --platform android --profile production",
+    "eas:build:production:ios": "eas build --platform ios --profile production",
     "start": "expo start",
     "convert-to-tsx": "./convert-to-tsx.sh"
   },
@@ -137,5 +140,17 @@
     "tailwindcss": "^3.3.2",
     "typescript": "^5.3.0"
   },
-  "private": true
+  "private": true,
+  "resolutions": {
+    "semver": "^7.5.2",
+    "markdown-it": "^13.0.2",
+    "cookie": "^0.5.0",
+    "send": "^0.18.0"
+  },
+  "overrides": {
+    "semver": "^7.5.2",
+    "markdown-it": "^13.0.2",
+    "cookie": "^0.5.0",
+    "send": "^0.18.0"
+  }
 }

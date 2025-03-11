@@ -46,9 +46,9 @@ A modern, feature-rich mobile application built with Expo and React Native. Ally
 ### Development Mode
 
 ```bash
-npm run start:local
+npm run start
 # or
-yarn start:local
+yarn start
 ```
 
 ### Preview Mode
@@ -69,20 +69,46 @@ yarn start:production
 
 ## 📱 Building for Production
 
+### iOS
+
+```bash
+npm run eas:build:production:ios
+# or
+yarn eas:build:production:ios
+```
+
 ### Android
 
 ```bash
-npm run eas:build:production
+npm run eas:build:production:android
 # or
-yarn eas:build:production
+yarn eas:build:production:android   
 ```
 
 ### iOS
 
 ```bash
-npm run eas:build:preview
+npm run eas:build:preview:ios
 # or
-yarn eas:build:preview
+yarn eas:build:preview:ios
+```
+
+## Development Builds
+
+### iOS
+
+```bash
+npm run eas:build:development:ios
+# or
+yarn eas:build:development:ios
+```
+
+### Android
+
+```bash
+npm run eas:build:development:android
+# or
+yarn eas:build:development:android
 ```
 
 ## 🧩 Project Structure
