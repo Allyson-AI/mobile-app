@@ -14,7 +14,6 @@ Allyson is an AI web agent that handles online tasks for you. It can navigate we
 - **Authentication**: Secure user authentication with Clerk
 - **Notifications**: Push notifications support
 - **In-App Purchases**: Support for subscriptions and purchases
-- **Dark/Light Mode**: Automatic and manual theme switching
 - **Responsive Design**: Works on various device sizes
 
 ## 📋 Prerequisites
