@@ -1,4 +1,4 @@
-# Allyson AI Mobile App
+# Allyson Mobile App
 
 ![Allyson Logo](https://allyson.ai/allyson-og.png)
 
