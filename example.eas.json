@@ -1,0 +1,70 @@
+{
+  "cli": {
+    "version": ">= 2.3.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "",
+        "EXPO_PUBLIC_HOST_URL": "",
+        "EXPO_PUBLIC_API_URL": "",
+        "POSTHOG_API_KEY": "",
+        "REVENUECAT_APPLE": "",
+        "REVENUECAT_GOOGLE": "",
+        "SUPERWALL_IOS_API_KEY": "",
+        "SUPERWALL_ANDROID_API_KEY": ""
+      },
+      "android": {
+        "image": "latest",
+        "gradleCommand": ":app:assembleDebug"
+      },
+      "channel": "development"
+    },
+    "preview": {
+      "ios": {
+        "image": "latest",
+        "simulator": true,
+        "developmentClient": true
+      },
+      "android": {
+        "image": "latest",
+        "gradleCommand": ":app:assembleRelease"
+      },
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "",
+        "EXPO_PUBLIC_HOST_URL": "",
+        "EXPO_PUBLIC_API_URL": "",
+        "POSTHOG_API_KEY": "",
+        "REVENUECAT_APPLE": "",
+        "REVENUECAT_GOOGLE": "",
+        "SUPERWALL_IOS_API_KEY": "",
+        "SUPERWALL_ANDROID_API_KEY": ""
+      },
+      "channel": "preview"
+    },
+    "production": {
+      "ios": {
+        "image": "latest"
+      },
+      "android": {
+        "image": "latest"
+      },
+      "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "",
+        "EXPO_PUBLIC_HOST_URL": "",
+        "EXPO_PUBLIC_API_URL": "",
+        "POSTHOG_API_KEY": "",
+        "REVENUECAT_APPLE": "",
+        "REVENUECAT_GOOGLE": "",
+        "SUPERWALL_IOS_API_KEY": "",
+        "SUPERWALL_ANDROID_API_KEY": ""
+      },
+      "channel": "production"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

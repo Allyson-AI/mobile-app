@@ -1,0 +1,3 @@
+We are using tailwind in our Expo app so use tailwind styling as mush as we can in replace of the StyleSheet.
+
+Use the expo-router
