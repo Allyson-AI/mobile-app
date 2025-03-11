@@ -1,6 +1,10 @@
 # Allyson AI Mobile App
 
-A modern, feature-rich mobile application built with Expo and React Native. Allyson AI is designed to provide a seamless and intuitive user experience with a beautiful UI powered by Tailwind CSS.
+![Allyson Logo](https://allyson.ai/allyson-og.png)
+
+Allyson is an AI web agent that handles online tasks for you. It can navigate websites, fill forms, collect data, manage files, and perform various web-based operations with persistence through S3 storage.
+
+[Install from App Store](https://apps.apple.com/us/app/allyson/id6593659141)
 
 ## 🚀 Features
 
@@ -149,17 +153,6 @@ Required environment variables:
 - `REVENUECAT_GOOGLE` - RevenueCat key for Android
 - `SUPERWALL_IOS_API_KEY` - Superwall key for iOS
 - `SUPERWALL_ANDROID_API_KEY` - Superwall key for Android
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 
 ## 🤝 Contributing
 
